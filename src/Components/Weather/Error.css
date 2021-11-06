@@ -1,0 +1,39 @@
+.error-404{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.error-left{
+    width: 50%;
+    padding: 16px;
+}
+.go-home{
+    margin: 16px 0px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: #407BFF;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.error-main{
+    width: 75%;
+    line-height: 22px;
+}
+#oh-snap{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+.error-right{
+    height: 70vh;
+}
+.error-footer{
+    font-size: 12px;
+}
