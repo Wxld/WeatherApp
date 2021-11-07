@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
           <Route path="/weather" component={Weather} />
         </Switch>
       </div>
