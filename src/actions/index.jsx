@@ -9,7 +9,6 @@ const updateData = (place) => {
             type: "UPDATE_DATA",
             payload: data,
           })
-          //setSuccess(true);
         })
       }
 }
