@@ -8,7 +8,7 @@ function Clock() {
     const [data,setData] = useState({});
     const [load,setLoad] = useState(false);
     const getTime = () => {
-        fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
+        fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata")
         .then(res => res.json())
         .then(data => {
             setData(data);
