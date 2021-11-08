@@ -18,7 +18,7 @@ function Weather() {
             )
             :
             (
-                <div>
+                <div className="loader-error">
                 {
                     details.error ?
                     (
